@@ -21,15 +21,10 @@ img {
 
 figure {
   margin: 0;
-  display: grid;
-  grid-template-rows: 1fr auto;
   margin-bottom: 1.5rem;
-  break-inside: avoid;
 }
 
 figure>img {
-  grid-row: 1 / -1;
-  grid-column: 1;
   border-radius: 1rem;
 }
 
