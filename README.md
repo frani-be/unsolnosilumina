@@ -23,6 +23,7 @@ El proyecto se puede visualizar en vivo en [Un Sol Nos Ilumina](http://unsolnosi
 *   **Énfasis en la Fotografía y Medios Audiovisuales:** El proyecto pone un gran énfasis en la fotografía y otros medios audiovisuales, reflejando la estética y el ambiente del Tumblr original.
 *   **Reproductor de Música de Nightwish:** Incluye un reproductor de música con canciones de Nightwish, recreando la misma experiencia musical que tenía en mi Tumblr en el pasado.
 *   **Imágenes Personales y de Inspiración:** Contiene una colección de imágenes personales, incluyendo fotografías e ilustraciones de mi autoría, así como otras imágenes que me inspiran y considero bellas, creando un espacio personal y único.
+*   **Distribución Aleatoria de Imágenes:** Las imágenes son seleccionadas y distribuidas de manera aleatoria a partir de un archivo CSV que lee la carpeta de imágenes. Esto añade un elemento de sorpresa y variedad cada vez que se visita el proyecto, emulando la naturaleza siempre cambiante de un Tumblr.
 
 ## Tecnologías Utilizadas
 
@@ -31,3 +32,4 @@ Para el desarrollo de "Un Sol Nos Ilumina", se han utilizado las siguientes tecn
 *   **HTML:** Estructura básica y semántica del proyecto.
 *   **CSS:** Estilización y diseño visual, proporcionando una estética acorde con el tema nostálgico.
 *   **JavaScript:** Implementación de funcionalidades interactivas y dinámicas, todo manejado de forma nativa para garantizar una carga rápida y una experiencia de usuario fluida.
+*   **Python y FFmpeg:** Estos se utilizaron fuera del ámbito del código principal para convertir las imágenes a formato WebP. Este proceso fue esencial para optimizar las imágenes para la web, asegurando tiempos de carga rápidos y manteniendo la calidad visual.
