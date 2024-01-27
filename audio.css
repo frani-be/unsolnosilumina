@@ -29,7 +29,7 @@
 }
 
 .timeline {
-  -webkit-appearance: none;
+  appearance: none;
   width: calc(100% - (var(--player-button-width) + var(--sound-button-width) + var(--space)));
   height: .5em;
   background-color: #e5e5e5;
@@ -41,7 +41,7 @@
 }
 
 .timeline::-webkit-slider-thumb {
-  -webkit-appearance: none;
+  appearance: none;
   width: 1em;
   height: 1em;
   border-radius: 50%;
@@ -52,7 +52,7 @@
 }
 
 .timeline::-moz-range-thumb {
-  -webkit-appearance: none;
+  appearance: none;
   width: 1em;
   height: 1em;
   border-radius: 50%;
@@ -63,7 +63,7 @@
 }
 
 .timeline::-ms-thumb {
-  -webkit-appearance: none;
+  appearance: none;
   width: 1em;
   height: 1em;
   border-radius: 50%;
@@ -74,21 +74,21 @@
 } 
 
 .timeline::-webkit-slider-runnable-track {
-  -webkit-appearance: none;
+  appearance: none;
   box-shadow: none;
   border: none;
   background: transparent;
 }
 
 .timeline::-moz-range-track {
-  -webkit-appearance: none;
+  appearance: none;
   box-shadow: none;
   border: none;
   background: transparent;
 }
 
 .timeline::-ms-track {
-  -webkit-appearance: none;
+  appearance: none;
   box-shadow: none;
   border: none;
   background: transparent;
