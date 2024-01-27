@@ -32,6 +32,7 @@ fetch("imgs.csv")
             const img = document.createElement("img");
             img.loading = "lazy";
             img.width = "200";
+            img.height = "200";
             img.alt = data.descripcion || "Imagen de Un Sol Nos Ilumina by frani.be (Francisca Beatriz Medina Concha)";
             img.title = data.descripcion || "Imagen de Un Sol Nos Ilumina by frani.be (Francisca Beatriz Medina Concha)";
             img.src = `imgs/${data.imagen}`;
